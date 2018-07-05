@@ -5,11 +5,11 @@ test = TextBlob("Vis needs a full time role in Data Science")
 print(test.tags,test.words)
 
 
-Consumer_Key =	'yourkey'
-Consumer_Secret = 'yourkey'
+Consumer_Key =	'QN0HG8XpgI2zchl6AhPlgjj5g'
+Consumer_Secret = '8W9tRf690MIZC1tFg6hgX7fgQrKIe4IoMDD6XRuERUziAFJAKO'
 
-Access_Token = 'yourkey'
-Access_Token_Secret	= 'yourkey'
+Access_Token = '1014715995619856384-GabIqcy1PzI4mbPp6Au461jbRrofDP'
+Access_Token_Secret	= 'k4GMY7d9RYwDTrJNgAXYNetbAXw7LyM4VsvVJ6bjQCMSm'
 
 auth = tweepy.OAuthHandler(Consumer_Key,Consumer_Secret)
 auth.set_access_token(Access_Token,Access_Token_Secret)
